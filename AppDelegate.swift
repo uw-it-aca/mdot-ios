@@ -35,10 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = tabBarController
         
         // navbar setup
-        UINavigationBar.appearance().barTintColor = hexStringToUIColor("#ffffff")
+        UINavigationBar.appearance().barTintColor = hexStringToUIColor("#514DA3")
         UINavigationBar.appearance().isTranslucent = false
-        UINavigationBar.appearance().tintColor = hexStringToUIColor("#000000")
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : hexStringToUIColor("#000000")]
+        UINavigationBar.appearance().tintColor = hexStringToUIColor("#ffffff")
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : hexStringToUIColor("#ffffff")]
         
         // globally set tint color
         self.window!.tintColor = hexStringToUIColor("#514DA3")
