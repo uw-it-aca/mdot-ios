@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.viewControllers = [firstTabNavigationController, secondTabNavigationControoller]
         
         let item1 = UITabBarItem(title: "Home", image: UIImage(named: "ico-home"), tag: 0)
-        let item2 = UITabBarItem(title: "Accounts", image:  UIImage(named: "ico-contest"), tag: 1)
+        let item2 = UITabBarItem(title: "Developers", image:  UIImage(named: "ico-contest"), tag: 1)
         
         firstTabNavigationController.tabBarItem = item1
         secondTabNavigationControoller.tabBarItem = item2
