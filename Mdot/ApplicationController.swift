@@ -5,7 +5,7 @@ import Turbolinks
 class ApplicationController: UINavigationController {
     
     var url: Foundation.URL {
-        return Foundation.URL(string: "http://localhost:8000/?hybrid=true")!
+        return Foundation.URL(string: "http://localhost:8000/")!
     }
     
     fileprivate let webViewProcessPool = WKProcessPool()
@@ -31,12 +31,16 @@ class ApplicationController: UINavigationController {
         
         // Switching this to false will prevent content from sitting beneath scrollbar
         navigationBar.isTranslucent = false
-
+        
         presentVisitableForSession(session, url: url)
         
     }
 
     fileprivate func presentVisitableForSession(_ session: Session, url: URL, action: Action = .Advance) {
+        
+        // before a visit is made... always include hybrid params
+        let url = Foundation.URL(string: "\(url)?hybrid=true")!
+        
         let visitable = VisitableViewController(url: url)
 
         if action == .Advance {

@@ -6,34 +6,11 @@ import Turbolinks
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
-    var firstTabNavigationController : UINavigationController!
-    var secondTabNavigationControoller : UINavigationController!
-    
-    // MARK: UIApplicationDelegate
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        
-        // tabbar setup
-        let tabBarController = UITabBarController()
-        
-        firstTabNavigationController = HomeViewController()
-        secondTabNavigationControoller = AccountsViewController()
-        
-        tabBarController.viewControllers = [firstTabNavigationController, secondTabNavigationControoller]
-        
-        let item1 = UITabBarItem(title: "Home", image: UIImage(named: "ico-home"), tag: 0)
-        let item2 = UITabBarItem(title: "Developers", image:  UIImage(named: "ico-contest"), tag: 1)
-        
-        firstTabNavigationController.tabBarItem = item1
-        secondTabNavigationControoller.tabBarItem = item2
-        
-        // Tabbaar setup
-        UITabBar.appearance().tintColor = hexStringToUIColor("#514DA3")
-        
-        self.window?.rootViewController = tabBarController
-        
+        self.window?.rootViewController = MdotViewController()
+ 
         // navbar setup
         UINavigationBar.appearance().barTintColor = hexStringToUIColor("#ffffff")
         UINavigationBar.appearance().isTranslucent = false
@@ -45,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // globally set background to white
         self.window!.backgroundColor = hexStringToUIColor("#ffffff")
-        
         
         window?.makeKeyAndVisible()
         

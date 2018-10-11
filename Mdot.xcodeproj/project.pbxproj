@@ -16,11 +16,10 @@
 		85CC204E216EF2DE00D8A30E /* MdotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC204D216EF2DE00D8A30E /* MdotUITests.swift */; };
 		85CC2067216F03D400D8A30E /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC205F216F03D300D8A30E /* ApplicationController.swift */; };
 		85CC2069216F03D400D8A30E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2061216F03D400D8A30E /* ErrorView.swift */; };
-		85CC206A216F03D400D8A30E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2062216F03D400D8A30E /* HomeViewController.swift */; };
+		85CC206A216F03D400D8A30E /* MdotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2062216F03D400D8A30E /* MdotViewController.swift */; };
 		85CC206B216F03D400D8A30E /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85CC2063216F03D400D8A30E /* ErrorView.xib */; };
 		85CC206D216F03D400D8A30E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2065216F03D400D8A30E /* Error.swift */; };
 		85CC206E216F03D400D8A30E /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2066216F03D400D8A30E /* AuthenticationController.swift */; };
-		85CC2072216F04E200D8A30E /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC2071216F04E200D8A30E /* AccountsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,11 +68,10 @@
 		85CC204F216EF2DE00D8A30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CC205F216F03D300D8A30E /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
 		85CC2061216F03D400D8A30E /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
-		85CC2062216F03D400D8A30E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		85CC2062216F03D400D8A30E /* MdotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MdotViewController.swift; sourceTree = "<group>"; };
 		85CC2063216F03D400D8A30E /* ErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
 		85CC2065216F03D400D8A30E /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		85CC2066216F03D400D8A30E /* AuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
-		85CC2071216F04E200D8A30E /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountsViewController.swift; path = "/Users/charlon/Xcode/mdot-ios/Mdot/AccountsViewController.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,13 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				85B4C2EE216F07C20084810D /* AppDelegate.swift */,
-				85CC2071216F04E200D8A30E /* AccountsViewController.swift */,
 				85CC205F216F03D300D8A30E /* ApplicationController.swift */,
 				85CC2066216F03D400D8A30E /* AuthenticationController.swift */,
 				85CC2065216F03D400D8A30E /* Error.swift */,
 				85CC2061216F03D400D8A30E /* ErrorView.swift */,
 				85CC2063216F03D400D8A30E /* ErrorView.xib */,
-				85CC2062216F03D400D8A30E /* HomeViewController.swift */,
+				85CC2062216F03D400D8A30E /* MdotViewController.swift */,
 				85CC2034216EF2DE00D8A30E /* Assets.xcassets */,
 				85CC2036216EF2DE00D8A30E /* LaunchScreen.storyboard */,
 				85CC2039216EF2DE00D8A30E /* Info.plist */,
@@ -326,8 +323,7 @@
 				85CC2069216F03D400D8A30E /* ErrorView.swift in Sources */,
 				85CC2067216F03D400D8A30E /* ApplicationController.swift in Sources */,
 				85B4C2EF216F07C20084810D /* AppDelegate.swift in Sources */,
-				85CC2072216F04E200D8A30E /* AccountsViewController.swift in Sources */,
-				85CC206A216F03D400D8A30E /* HomeViewController.swift in Sources */,
+				85CC206A216F03D400D8A30E /* MdotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
